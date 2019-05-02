@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.info {
+  position: fixed;
+  left: 650px;
+  top: 20px;
+  text-align: center;
+}
+
+.gamezone {
+  width: 800px;
+  height: 800px;
+  border: 1px solid red;
+  margin: 0;
+}
+
+#circle {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background: yellowgreen;
+  position: fixed;
+}
+
+.gameOver {
+  position: fixed;
+  left: 300px;
+  top: 400px;
+  font-size: 30px;
+  color: brown;
+}
